@@ -1,0 +1,20 @@
+hr {
+background: transparent;
+border: 3 3 40px 3;
+border-style: dotted;
+border-color: gray;
+}
+
+/* Container holding the image and the text */
+.container1 {
+    position: relative;
+    text-align: left;
+    color: black;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+}
